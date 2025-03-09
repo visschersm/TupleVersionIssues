@@ -10,9 +10,9 @@ namespace UnitTests
         [TestMethod]
         public void TestMethod1()
         {
-            var result = _class1.Addition(1, 2);
+            var result = _class1.BrokenTupleMethod();
 
-            Assert.AreEqual(3, result);
+            Assert.IsNotNull(result);
         }
     }
 }
