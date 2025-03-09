@@ -1,12 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace SomeLibrary
 {
     public class Class1
     {
-        public (int, string) BrokenTupleMethod()
+        public List<(int, string)> BrokenTupleMethod()
         {
-            return (1, "one");
+            return new List<(int, string)>
+            {
+                (1, "one")
+            };
         }
     }
 }
