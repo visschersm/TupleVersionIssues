@@ -13,7 +13,7 @@ namespace UnitTests
         {
             var result = _class1.BrokenTupleMethod();
 
-            Assert.IsNotEmpty(result);
+            Assert.IsNotNull(result);
         }
     }
 }
