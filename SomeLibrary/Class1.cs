@@ -4,9 +4,9 @@ namespace SomeLibrary
 {
     public class Class1
     {
-        public int Addition(int x, int y)
+        public (int, string) BrokenTupleMethod()
         {
-            return x + y;
+            return (1, "one");
         }
     }
 }
