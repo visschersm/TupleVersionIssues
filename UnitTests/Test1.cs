@@ -1,4 +1,5 @@
 ﻿using SomeLibrary;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests
 {
@@ -12,7 +13,7 @@ namespace UnitTests
         {
             var result = _class1.BrokenTupleMethod();
 
-            Assert.IsNotNull(result);
+            Assert.IsNotEmpty(result);
         }
     }
 }
