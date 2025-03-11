@@ -14,4 +14,4 @@ jobs:
             10.0.x
 
       - name: Test
-        run: dotnet test --verbosity detailed
+        run: dotnet test
