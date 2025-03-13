@@ -3,7 +3,6 @@
   <PropertyGroup>
     <TargetFrameworks>net47</TargetFrameworks>
     <LangVersion>latest</LangVersion>
-    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
